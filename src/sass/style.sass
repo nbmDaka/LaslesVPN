@@ -52,6 +52,27 @@
         font-size: 35px
         line-height: 50px
         text-align: center
+    &_global
+        width: 371px
+        margin: 0 auto
+        font-weight: 500
+        font-size: 35px
+        line-height: 50px
+        text-align: center
+    &_customer
+        width: 447.81px
+        font-weight: 500
+        font-size: 35px
+        line-height: 50px
+        margin: 0 auto
+        text-align: center
+    &_subscribe
+        width: 350px
+        font-weight: 500
+        font-size: 35px
+        line-height: 45px
+        display: flex
+        align-items: center
 
 .descr
     padding-top: 38px
@@ -73,6 +94,27 @@
         line-height: 30px
         text-align: center
         margin: 0 auto
+    &_global
+        margin: 0 auto
+        width: 555px
+        font-weight: 400
+        font-size: 16px
+        line-height: 30px
+        text-align: center
+    &_customer
+        width: 555px
+        font-weight: 400
+        font-size: 16px
+        line-height: 30px
+        text-align: center
+        margin: 0 auto
+    &_subscribe
+        padding-top: 22px
+        font-weight: 400
+        font-size: 16px
+        line-height: 30px
+        display: flex
+        align-items: center
 
 .features
     margin: 95px 0 120px 0
@@ -98,9 +140,9 @@
 .plan
     margin: 85px 0 80px 0
     &__block
+        position: relative
         margin: 70px auto 0 auto
         box-sizing: border-box
-        position: absolute
         width: 330px
         height: 760px
         background: #FFFFFF
@@ -129,8 +171,63 @@
                 content: ''
                 display: block
                 position: absolute
-                left: -49px
-                top: 3px
+                left: -29px
+                top: 2px
                 width: 24px
                 height: 24px
                 background: url('../icons/check_another.png') center (center / cover) no-repeat
+    &__price
+        position: absolute
+        bottom: 120px
+        right: 138px
+        font-weight: 500
+        font-size: 25px
+        line-height: 30px
+        color: #0B132A
+        &_second
+            right: 121px
+        &_third
+            right: 114px
+    &__btn
+        position: absolute
+        width: 177.88px
+        height: 45px
+        bottom: 47px
+        right: 80px
+        box-sizing: border-box
+        border: 2px solid #F53838
+        border-radius: 50px
+        font-weight: 700
+        font-size: 16px
+        line-height: 19px
+        color: #F53838
+
+.global
+    margin: 160px 0 75px 0
+    &__img
+        display: block
+        margin: 160px auto 0 auto
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 121px
+
+.customer
+    margin: 90px 0 100px 0
+    .carousel
+        margin-top: 70px
+
+.subscribe
+    margin-top: 200px
+    &__btn
+        width: 250px
+        height: 60px
+        background: #F53838
+        border-radius: 10px
+        font-weight: 700
+        font-size: 16px
+        line-height: 25px
+        color: #FFFFFF
+        border: none
+    
